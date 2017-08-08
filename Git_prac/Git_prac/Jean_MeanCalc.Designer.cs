@@ -30,13 +30,16 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(12, 22);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(124, 54);
+            this.panel1.Size = new System.Drawing.Size(197, 64);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -45,6 +48,13 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(116, 264);
             this.panel2.TabIndex = 1;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(123, 21);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(45, 20);
+            this.textBox1.TabIndex = 0;
             // 
             // Jean_MeanCalc
             // 
@@ -55,6 +65,8 @@
             this.Controls.Add(this.panel1);
             this.Name = "Jean_MeanCalc";
             this.Text = "Jean_MeanCalc";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -63,5 +75,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
