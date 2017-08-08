@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Git_prac
 {
-    public partial class Form1 : Form
+    public partial class Jean_MeanCalc : Form
     {
-        public Form1()
+        public Jean_MeanCalc()
         {
             InitializeComponent();
-        }
-
-        private void btnJean_Click(object sender, EventArgs e)
-        {
-            Jean_MeanCalc frmJM = new Jean_MeanCalc();
-            frmJM.Show();
         }
     }
 }
