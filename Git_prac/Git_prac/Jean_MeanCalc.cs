@@ -12,7 +12,7 @@ namespace Git_prac
 {
     public partial class Jean_MeanCalc : Form
     {
-        Mean mean = new Mean();
+        stat statmean = new stat();
         int inVal = 0;
         Testnr test = new Testnr();
         public Jean_MeanCalc()
@@ -25,8 +25,8 @@ namespace Git_prac
             
             inVal = Convert.ToInt32(txtnr.Text);
             if (test.test(inVal)) {
-                mean.Rand(inVal);
-                lblRands.Text = mean.nrhold;
+                statmean.Rand(inVal);
+                lblRands.Text = statmean.nrhold;
             }
             else {
                 MessageBox.Show("please insert valid nr");
@@ -39,7 +39,7 @@ namespace Git_prac
         private void btnMean_Click(object sender, EventArgs e)
         {
             if (test.test(inVal))
-                MessageBox.Show(Convert.ToString(mean.mean((inVal))));
+                MessageBox.Show(Convert.ToString(statmean.mean((inVal))));
             else {
                 MessageBox.Show("please insert valid nr");
                 txtnr.Clear();
