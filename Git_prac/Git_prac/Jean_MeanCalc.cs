@@ -14,6 +14,7 @@ namespace Git_prac
     {
         Mean mean = new Mean();
         int inVal = 0;
+        Testnr test = new Testnr();
         public Jean_MeanCalc()
         {
             InitializeComponent();
@@ -21,16 +22,30 @@ namespace Git_prac
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
+            
             inVal = Convert.ToInt32(txtnr.Text);
-           
-            mean.Rand(inVal);
-            lblRands.Text = mean.nrhold;
+            if (test.test(inVal)) {
+                mean.Rand(inVal);
+                lblRands.Text = mean.nrhold;
+            }
+            else {
+                MessageBox.Show("please insert valid nr");
+                txtnr.Clear();
+                txtnr.Focus();
+            }
 
         }
 
         private void btnMean_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Convert.ToString(mean.mean((inVal))));
+            if (test.test(inVal))
+                MessageBox.Show(Convert.ToString(mean.mean((inVal))));
+            else {
+                MessageBox.Show("please insert valid nr");
+                txtnr.Clear();
+                txtnr.Focus();
+            }
+
         }
     }
 }
