@@ -57,6 +57,7 @@
     <Compile Include="Jean_MeanCalc.Designer.cs">
       <DependentUpon>Jean_MeanCalc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mean.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

@@ -1,0 +1,10 @@
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\bin\Debug\Git_prac.exe.config
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\bin\Debug\Git_prac.exe
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\bin\Debug\Git_prac.pdb
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\obj\Debug\Git_prac.csprojResolveAssemblyReference.cache
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\obj\Debug\Git_prac.Form1.resources
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\obj\Debug\Git_prac.Jean_MeanCalc.resources
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\obj\Debug\Git_prac.Properties.Resources.resources
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\obj\Debug\Git_prac.csproj.GenerateResource.Cache
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\obj\Debug\Git_prac.exe
+C:\Users\Ruan\Desktop\Git\Git_prac\Git_prac\obj\Debug\Git_prac.pdb
